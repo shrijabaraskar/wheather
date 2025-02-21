@@ -1,0 +1,92 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #03548a, #083452);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .weather-app {
+    width: 90%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Header Styles */
+  .header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .header p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+  }
+  
+  .header img {
+    width: 100px;
+    margin: 10px auto;
+  }
+  
+  /* Forecast Section */
+  .forecast {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .forecast-grid div {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
+  /* Details Section */
+  .details {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .details-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .details-grid div {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Lifestyle Section */
+  .lifestyle {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+  
+  /* Utility Styles */
+  p, h2 {
+    margin: 5px 0;
+  }
